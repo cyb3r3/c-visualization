@@ -5,7 +5,7 @@ Cool little project that I am working on using C and raylib. Going to be add oth
 <h2>#todo</h2> 
 
 **EASY** <br>
-- Bubble sort [-] <br>
+- Bubble sort [x] <br>
 - Bogo sort [ ] <br>
 
 **MEDUIM** <br>
