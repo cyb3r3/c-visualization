@@ -1,7 +1,7 @@
 # c-visualization
 https://github.com/raysan5/raylib
 
-Cool little project that I am working on using C and raylib. Going to be add other sorts of algorithms ranging from **beinngner** to **advanced.** 
+Cool little project that I am working on using C and raylib. Going to be add other sorts of algorithms ranging from **beginner** to **advanced.** 
 
 To complie the code, run: `gcc sort-vis.c -o sort-vis -lraylib -lm -lpthread -ldl`
 
