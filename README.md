@@ -1,7 +1,7 @@
 # c-visualization
 https://github.com/raysan5/raylib
 
-Cool little project that I am working on using C and raylib. Going to be add other sorts of algorithms ranging from **beginner** to **advanced.** 
+Cool little project that I am working on using C and raylib. Going to be adding other sorts of algorithms ranging from **beginner** to **advanced.** 
 <h2>#todo</h2> 
 
 **EASY** <br>
