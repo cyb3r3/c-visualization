@@ -2,6 +2,7 @@
 
 #include <stdlib.h>
 #include <raylib.h>
+#include "bubble.c"
 
 #define WIDTH   900
 #define HEIGHT  600
