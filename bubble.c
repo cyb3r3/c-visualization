@@ -1,7 +1,7 @@
-#include "bubble.h"
+//#include "bubble.h"
 
 
-/TODO:
+//TODO:
 //needs tbe set in a seperate file.... or keep it here idk
 void bubble_sort_step() {
     if (sorted) return;

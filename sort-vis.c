@@ -1,8 +1,11 @@
 // https://www.youtube.com/watch?v=bm-UnFrLajU&t=1277s
 
+//#include "main.h"
+
 #include <stdlib.h>
 #include <raylib.h>
-#include "bubble.c"
+#include "sort-vis.h"
+
 
 #define WIDTH   900
 #define HEIGHT  600
@@ -35,6 +38,21 @@ int main() {
     return 0;
 }
 
+
+void init_bars() {
+    for (int i = 0; i < NUM_BARS; i++)
+        bars[i] = GetRandomValue(10, HEIGHT - 10);
+}
+
+void draw_bars(int highlight) {
+    int bar_width = WIDTH / NUM_BARS;
+    for (int i = 0; i < NUM_BARS; i++) {
+        Color color = (i == highlight) ? ORANGE : RAYWHITE;
+        DrawRectangle(i * bar_width, HEIGHT - bars[i], bar_width - 2, bars[i], color);
+    }
+}
+
+
 //TODO:
 //needs tbe set in a seperate file.... or keep it here idk
 void bubble_sort_step() {
@@ -52,15 +70,10 @@ void bubble_sort_step() {
     if (!swapped) sorted = 1;
 }
 
-void init_bars() {
-    for (int i = 0; i < NUM_BARS; i++)
-        bars[i] = GetRandomValue(10, HEIGHT - 10);
-}
+//O(n*n!)
+void bogo_sort ()
+{
+    if (sorted) return;
 
-void draw_bars(int highlight) {
-    int bar_width = WIDTH / NUM_BARS;
-    for (int i = 0; i < NUM_BARS; i++) {
-        Color color = (i == highlight) ? ORANGE : RAYWHITE;
-        DrawRectangle(i * bar_width, HEIGHT - bars[i], bar_width - 2, bars[i], color);
-    }
+
 }
