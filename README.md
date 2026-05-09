@@ -4,11 +4,10 @@ https://github.com/raysan5/raylib
 Cool little project that I am working on using C and raylib. Going to be adding other sorts of algorithms ranging from **beginner** to **advanced.** 
 <h2>#todo</h2> 
 - make main menu [-]
-
 - have the end user options
 **EASY** <br>
 - Bubble sort [x] <br>
-- Bogo sort [ ] <br>
+- Bogo sort [-] <br>
 
 **MEDUIM** <br>
 N/A 
